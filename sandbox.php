@@ -3,25 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <title>SandBox</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
-<style src="stgile.css"></style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<style src="style.css"></style>
+<script src="javascript.js"></script>
 </head>
 <body>
 
-<div class="jumbotron text-center"><h1>SandBox</h1></div>
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-
-		<?php echo "<pre>";print_r($data);echo "</pre>";exit; ?>
+	<div class="container">
+		<?php echo phpinfo(); ?>
+	</div>
 	
-    </div>
-  </div>
-</div>
-
-<script src="javascript.js"></script>
 </body>
 </html>
+
